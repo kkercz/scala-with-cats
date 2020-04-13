@@ -13,4 +13,6 @@ object Cat {
     s"${cat.name.print()} is a ${cat.age.print()} year-old ${cat.color.print()} cat"
 
   implicit val catShow: Show[Cat] = cat => s"${cat.name.show} is a ${cat.age.show} year-old ${cat.color.show} cat"
+
+  implicit val catEq: Eq[Cat] = (c1, c2) => c1 == c2
 }
