@@ -1,7 +1,6 @@
-package printable
+package typeclass
 
 import cats.implicits._
-import furry.Cat
 import org.scalatest.{FlatSpec, Matchers}
 
 class CatTest extends FlatSpec with Matchers {

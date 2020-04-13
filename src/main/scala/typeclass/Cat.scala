@@ -1,10 +1,9 @@
-package furry
+package typeclass
 
 import cats._
 import cats.implicits._
-import printable.Printable
-import printable.PrintableInstances._
-import printable.PrintableSyntax._
+import typeclass.PrintableInstances._
+import typeclass.PrintableSyntax._
 
 case class Cat(name: String, age: Int, color: String)
 

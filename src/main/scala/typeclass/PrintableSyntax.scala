@@ -1,4 +1,4 @@
-package printable
+package typeclass
 
 case object PrintableSyntax {
   implicit class PrintableOps[A : Printable](value: A) {

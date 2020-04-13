@@ -1,9 +1,8 @@
-package printable
+package typeclass
 
-import furry.Cat
 import org.scalatest.{FlatSpec, Matchers}
-import printable.PrintableInstances._
-import printable.PrintableSyntax._
+import typeclass.PrintableInstances._
+import typeclass.PrintableSyntax._
 
 class PrintableTest extends FlatSpec with Matchers {
 
